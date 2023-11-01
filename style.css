@@ -1,0 +1,22 @@
+body {
+    background:
+        linear-gradient(#B3E0FF, transparent),
+        linear-gradient(to top left,#3366FF, transparent),
+        linear-gradient(to top right,blue, transparent);
+    background-blend-mode:screen;
+}
+
+h1,h2{
+    color: darkblue;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border: 10px solid navy;
+    border-radius: 50%;
+}
+
+img:hover{
+    box-shadow: 5px 5px 10px navy;
+}
